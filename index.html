@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/D61-NameGenrator/style.css">
+    <title>Javascript - Business Name Generator</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <h2>Business Name Generator</h2>
+            <div class="input-group">
+                <label for="company-name">Company Name:</label>
+                <input type="text" id="keyword" name="keyword" placeholder="Enter Key Words">
+            </div>
+            <span>Business Name:<span><input type="text" id="result" name="result" readonly></span></span>
+            <p class="keywords">These Keywords Will Be Used: <span>Bros, Pvt. Limited, Hub, Foods, Garments,
+                    Enterprises.</span></p>
+            <p id="warn"></p>
+            <div class="btn-group">
+                <button id="btn-generate" onclick="genName()">Generate</button>
+                <button id="btn-generate" onclick="refresh()">Refresh</button>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="/D61-NameGenrator/script.js"></script>
+</body>
+
+</html>
